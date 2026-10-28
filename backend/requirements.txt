@@ -1,0 +1,6 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+PyJWT>=2.8
+# only needed to run backend/tests/test_api.py
+httpx>=0.27
+pytest>=8.0
